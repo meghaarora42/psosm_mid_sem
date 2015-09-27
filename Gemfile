@@ -25,6 +25,17 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'twitter'
+gem 'moped'
+
+gem 'sinatra', require: nil
+gem 'sidekiq'
+gem 'sidetiq'
+gem 'sidekiq-cron'
+gem 'sidekiq-status'
+gem 'sidekiq-limit_fetch'
+gem 'sidekiq-unique-jobs'
+gem 'sidekiq-failures'
+
 
 group :development, :test do
   # Call 'debugger' anywhere in the code to stop execution and get a debugger console
