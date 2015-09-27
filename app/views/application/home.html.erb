@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PsosmMidSem</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<%= form_tag({controller: "application", action: "twitter_data_collection"}, method: "post") do %>
+    <%= label_tag(:keyword_search, "Search for:") %>
+    <%= text_field_tag(:keyword_search) %>
+    <%= submit_tag("Search") %>
+<% end %>
+
+</body>
+</html>
