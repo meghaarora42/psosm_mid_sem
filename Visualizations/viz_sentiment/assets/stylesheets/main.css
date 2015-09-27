@@ -1,0 +1,112 @@
+.toast.toast-info {
+	opacity: 0.6 !important;
+	color: #ffffff !important;
+	padding: 15px !important;
+	background-color: #000000 !important;
+	background-image: none !important;
+}
+
+.panel {
+	background-color: #ffffff;
+}
+
+#visualization svg {
+	/*background-color: #f9f5f0;*/
+}
+
+#network-graph .message {
+	text-anchor: middle;
+}
+
+#network-graph .node {
+	fill: #1f77b4;
+	stroke: #FFFFFF;
+	stroke-width: 3px;
+}
+
+#network-graph .node-label {
+	fill: #FFFFFF;
+	font-size: 12px;
+	text-anchor: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+#network-graph .node-focused {
+	stroke: #1D567E;
+}
+
+#network-graph .link {
+	fill: none;
+	stroke: #999999;
+	stroke-opacity: 0.6;
+	stroke-width: 3px;
+}
+
+#network-graph .link.mention {
+	stroke: #FF0000;
+}
+
+#network-graph .link.reply {
+	stroke: #00FF00;
+}
+
+#network-graph .link.retweet {
+	stroke: #0000FF;
+}
+
+#network-graph marker > .mention {
+	fill: #FF0000;
+}
+
+#network-graph marker > .reply {
+	fill: #00FF00;
+}
+
+#network-graph marker > .retweet {
+	fill: #0000FF;
+}
+
+#network-graph .link-focused {
+	stroke-opacity: 1;
+}
+
+#network-graph .unfocused {
+	opacity: 0.2;
+	stroke-opacity: 0.2;
+}
+
+#network-graph .singleton {
+	/*display: none;*/
+}
+
+#network-graph-zoomer {
+	float: right;
+	height: 500px;
+}
+
+#network-graph-slider {
+	margin: 0px 30px;
+}
+
+#network-graph-slider .tooltip {
+	display: none;
+}
+
+#network-graph-slider .noUi-active > .tooltip {
+	display: block;
+	position: absolute;
+	border: 1px solid #D9D9D9;
+	font: 10px Arial;
+	border-radius: 3px;
+	background: #fff;
+	top: -30px;
+	padding: 5px;
+	left: -60px;
+	text-align: center;
+	width: 175px;
+	opacity: 1;
+}
